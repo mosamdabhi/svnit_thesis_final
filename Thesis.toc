@@ -1,0 +1,103 @@
+\contentsline {chapter}{Abstract}{i}{dummy.2}
+\vspace {1em}
+\contentsline {chapter}{Acknowledgements}{ii}{dummy.3}
+\vspace {1em}
+\contentsline {chapter}{List of Figures}{vi}{dummy.5}
+\contentsline {chapter}{List of Tables}{ix}{dummy.7}
+\vspace {2em}
+\contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.9}
+\contentsline {section}{\numberline {1.1}Motivation}{2}{section.10}
+\contentsline {section}{\numberline {1.2}System Overview}{3}{section.11}
+\contentsline {section}{\numberline {1.3}Objectives}{3}{section.13}
+\contentsline {section}{\numberline {1.4}Structure of the document}{4}{section.14}
+\contentsline {chapter}{\numberline {2}Literature Survey}{5}{chapter.15}
+\contentsline {section}{\numberline {2.1}Drone Development and operation}{6}{section.16}
+\contentsline {section}{\numberline {2.2}Spectral signature of vegetation}{6}{section.17}
+\contentsline {section}{\numberline {2.3}Image Stitching}{7}{section.18}
+\contentsline {section}{\numberline {2.4}Vegetation Indices and Machine Learning}{8}{section.19}
+\contentsline {section}{\numberline {2.5}Deep Learning for Image-Based Plant Disease Detection}{8}{section.20}
+\contentsline {section}{\numberline {2.6}Summary}{10}{section.21}
+\contentsline {chapter}{\numberline {3}Image Data Collection using Autonomous Drone}{11}{chapter.22}
+\contentsline {section}{\numberline {3.1}About}{11}{section.23}
+\contentsline {section}{\numberline {3.2}Overview of the System}{12}{section.25}
+\contentsline {subsection}{\numberline {3.2.1}Choosing a Flight Controller}{13}{subsection.27}
+\contentsline {section}{\numberline {3.3}Physical Parameters pertaining to our system}{14}{section.31}
+\contentsline {subsection}{\numberline {3.3.1}Sensors}{14}{subsection.32}
+\contentsline {subsection}{\numberline {3.3.2}Electrical}{15}{subsection.33}
+\contentsline {subsection}{\numberline {3.3.3}Mechanical}{15}{subsection.34}
+\contentsline {section}{\numberline {3.4}Remote Control Modes}{15}{section.35}
+\contentsline {subsection}{\numberline {3.4.1}Overview}{15}{subsection.36}
+\contentsline {subsection}{\numberline {3.4.2}Transmitter configuration}{16}{subsection.37}
+\contentsline {subsection}{\numberline {3.4.3}Channel Mappings}{17}{subsection.40}
+\contentsline {subsection}{\numberline {3.4.4}Connecting autopilot and turning on receiver}{17}{subsection.41}
+\contentsline {subsection}{\numberline {3.4.5}Calibration steps}{17}{subsection.43}
+\contentsline {subsection}{\numberline {3.4.6}RC Transmitter Flight Mode Configuration}{20}{subsection.52}
+\contentsline {subsubsection}{\numberline {3.4.6.1}Flight modes configuration}{20}{subsubsection.53}
+\contentsline {subsubsection}{\numberline {3.4.6.2}Setting the flight mode channel}{20}{subsubsection.55}
+\contentsline {subsubsection}{\numberline {3.4.6.3}Transmitter configuration}{21}{subsubsection.56}
+\contentsline {subsubsection}{\numberline {3.4.6.4}Test transmitter switch settings}{21}{subsubsection.57}
+\contentsline {section}{\numberline {3.5}Flight Modes and Autonomous Navigated Flight}{22}{section.59}
+\contentsline {subsection}{\numberline {3.5.1}Autotune}{22}{subsection.60}
+\contentsline {subsubsection}{\numberline {3.5.1.1}Setup before flying}{23}{subsubsection.62}
+\contentsline {subsubsection}{\numberline {3.5.1.2}How to invoke AutoTune}{23}{subsubsection.65}
+\contentsline {subsection}{\numberline {3.5.2}Stabilize Mode}{25}{subsection.75}
+\contentsline {subsubsection}{\numberline {3.5.2.1}Overview of this mode}{25}{subsubsection.76}
+\contentsline {subsubsection}{\numberline {3.5.2.2}Tuning}{25}{subsubsection.77}
+\contentsline {subsection}{\numberline {3.5.3}Loiter Mode}{25}{subsection.78}
+\contentsline {subsubsection}{\numberline {3.5.3.1}Controls}{26}{subsubsection.79}
+\contentsline {subsection}{\numberline {3.5.4}RTL Mode}{26}{subsection.80}
+\contentsline {subsubsection}{\numberline {3.5.4.1}Overview}{26}{subsubsection.81}
+\contentsline {subsection}{\numberline {3.5.5}Auto Mode}{27}{subsection.83}
+\contentsline {subsubsection}{\numberline {3.5.5.1}Overview}{28}{subsubsection.84}
+\contentsline {subsubsection}{\numberline {3.5.5.2}Controls and How it would be executed?}{28}{subsubsection.86}
+\contentsline {subsubsection}{\numberline {3.5.5.3}Ending a Mission}{29}{subsubsection.87}
+\contentsline {section}{\numberline {3.6}Conclusion}{30}{section.88}
+\contentsline {chapter}{\numberline {4}Stitching of Images}{31}{chapter.89}
+\contentsline {section}{\numberline {4.1}About the Chapter}{31}{section.90}
+\contentsline {section}{\numberline {4.2}Image Mosaicing and Ortho-rectification}{32}{section.92}
+\contentsline {subsection}{\numberline {4.2.1}Geometric corrections}{33}{subsection.96}
+\contentsline {section}{\numberline {4.3}Image Registration}{33}{section.97}
+\contentsline {subsection}{\numberline {4.3.1}Feature based methods}{34}{subsection.100}
+\contentsline {subsection}{\numberline {4.3.2}Intensity based mosaicing}{34}{subsection.102}
+\contentsline {section}{\numberline {4.4}Image Composting}{35}{section.106}
+\contentsline {section}{\numberline {4.5}Ortho-Rectification of images}{35}{section.107}
+\contentsline {subsection}{\numberline {4.5.1}Methods used in ortho-rectification}{37}{subsection.109}
+\contentsline {section}{\numberline {4.6}SIFT and SURF}{38}{section.110}
+\contentsline {subsection}{\numberline {4.6.1}SIFT Detector}{38}{subsection.111}
+\contentsline {subsection}{\numberline {4.6.2}SURF Detector}{39}{subsection.113}
+\contentsline {section}{\numberline {4.7}OpenDronemap based Image Processing}{40}{section.115}
+\contentsline {chapter}{\numberline {5}Analysis of Stitched Image}{41}{chapter.121}
+\contentsline {section}{\numberline {5.1}About}{41}{section.122}
+\contentsline {section}{\numberline {5.2}Comparison of Different Image Analysis Techniques}{41}{section.123}
+\contentsline {section}{\numberline {5.3}Image Analysis Using Indexing}{44}{section.126}
+\contentsline {subsection}{\numberline {5.3.1}Normalized Difference Vegetation Index}{45}{subsection.128}
+\contentsline {subsection}{\numberline {5.3.2}Clustering and Classification}{47}{subsection.131}
+\contentsline {subsubsection}{\numberline {5.3.2.1}K-means Algorithm}{47}{subsubsection.132}
+\contentsline {subsection}{\numberline {5.3.3}Softmax Regression Model}{48}{subsection.141}
+\contentsline {chapter}{\numberline {6}Crop Disease Prediction using Deep Learning}{50}{chapter.143}
+\contentsline {section}{\numberline {6.1}About}{50}{section.144}
+\contentsline {section}{\numberline {6.2}Deep Learning Model}{50}{section.145}
+\contentsline {subsection}{\numberline {6.2.1}Convolutional Neural Networks}{51}{subsection.146}
+\contentsline {subsection}{\numberline {6.2.2}Deep Learning Frameworks}{53}{subsection.149}
+\contentsline {subsubsection}{\numberline {6.2.2.1}Why TensorFlow?}{54}{subsubsection.150}
+\contentsline {subsection}{\numberline {6.2.3}Transfer Learning}{55}{subsection.151}
+\contentsline {subsubsection}{\numberline {6.2.3.1}Inception V-3 model}{55}{subsubsection.153}
+\contentsline {chapter}{\numberline {7}Experimental Results}{58}{chapter.155}
+\contentsline {section}{\numberline {7.1}Autonomous flight for data collection}{58}{section.156}
+\contentsline {subsection}{\numberline {7.1.1}Verifying Loiter performance with dataflash logs}{58}{subsection.157}
+\contentsline {subsection}{\numberline {7.1.2}Verifying performance with dataflash logs}{59}{subsection.159}
+\contentsline {subsection}{\numberline {7.1.3}Planning a Mission with Waypoints and Events}{60}{subsection.167}
+\contentsline {subsection}{\numberline {7.1.4}Auto grid}{62}{subsection.170}
+\contentsline {section}{\numberline {7.2}Web Portal}{64}{section.187}
+\contentsline {subsection}{\numberline {7.2.1}Dataset for Image Stitching and NDVI Analysis}{64}{subsection.191}
+\contentsline {subsection}{\numberline {7.2.2}Image Stitching}{65}{subsection.200}
+\contentsline {subsection}{\numberline {7.2.3}NDVI Analysis}{67}{subsection.202}
+\contentsline {subsection}{\numberline {7.2.4}Clustering using K-Means}{68}{subsection.206}
+\contentsline {subsection}{\numberline {7.2.5}SoftMax Regression Model}{68}{subsection.207}
+\contentsline {subsection}{\numberline {7.2.6}Dataset for Deep Learning}{70}{subsection.213}
+\contentsline {subsection}{\numberline {7.2.7}Crop Disease Prediction Using Deep Learning}{70}{subsection.215}
+\contentsline {subsubsection}{\numberline {7.2.7.1}Limitations}{72}{subsubsection.216}
+\contentsline {chapter}{\numberline {8}Conclusions and Future Work}{74}{chapter.224}
+\vspace {2em}
+\vspace {2em}
+\contentsline {chapter}{Bibliography}{75}{dummy.225}
